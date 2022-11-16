@@ -20,8 +20,13 @@ ql raw https://raw.githubusercontent.com/liyw0205/Unicom-traffic-monitoring/main
 ### 第二步
 添加账号信息
 脚本管理里找到脚本，在57行添加手机号,59添加服务密码,67行添加APPID
-> APPID可以通过抓包或者验证码登录营业厅自动生成
+> APPID可以通过抓包及其他方法
 <img src = "https://github.com/liyw0205/Connection-margin-v3-/blob/main/%E8%84%9A%E6%9C%AC/%E6%9D%A5%E6%BA%90/IMG_20221116_152154.jpg" >
+
+
+### 推送
+在配置文件config.sh里添加或者在脚本管理里sendNotify.js添加，脚本自动获取推送
+> 推送怎么注册就不多说了
 
 修改完成就可以开始跑了
 <img src = "https://github.com/liyw0205/Connection-margin-v3-/blob/main/%E8%84%9A%E6%9C%AC/%E6%9D%A5%E6%BA%90/IMG_20221116_163812.jpg" >
