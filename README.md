@@ -16,6 +16,15 @@ ql raw https://raw.githubusercontent.com/liyw0205/Unicom-traffic-monitoring/main
 ```
 */15 * * * *
 ```
+> 以下定时为上午7点到晚上11点每15分钟运行一次
+```
+*/15 7-23 * * *
+```
+> 以下定时为上午7点到晚上11点每15分钟运行一次
+```
+*/30 7-23 * * *
+```
+更多定时请百度
 
 ### 第二步
 添加账号信息
@@ -23,6 +32,11 @@ ql raw https://raw.githubusercontent.com/liyw0205/Unicom-traffic-monitoring/main
 > APPID可以通过抓包及其他方法
 <img src = "https://github.com/liyw0205/Connection-margin-v3-/blob/main/%E8%84%9A%E6%9C%AC/%E6%9D%A5%E6%BA%90/IMG_20221116_152154.jpg" >
 
+### 多用户
+把脚本复制并重命名即可，一个脚本一份账号信息
+> 如10010_2.js 10010_3.js以此类推
+缺点是会生成同一个10010-box.dat，导致某些信息错误
+解决办法是新建文件夹，一个文件夹放一个脚本
 
 ### 推送
 在配置文件config.sh里添加或者在脚本管理里sendNotify.js添加，脚本自动获取推送
