@@ -8,7 +8,7 @@
 ### 第一步
 青龙拉取脚本
 ```
-ql raw https://raw.githubusercontent.com/liyw0205/Unicom-traffic-monitoring/main/10010.js
+ql raw https://github.com/liyw0205/Connection-margin-v3-/raw/main/Script/10010.js
 ```
 
 修改定时
