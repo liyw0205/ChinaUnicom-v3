@@ -1,5 +1,5 @@
 # 联通余量(v3)
-[源仓库](https://github.com/xream/scripts/tree/main/surge/modules/10010v3)
+[源仓库](https://github.com/ChinaTelecomOperators/ChinaUnicom)
 > 本库仅供学习交流，如有问题请看源仓库
 
 ## 使用教程-青龙
@@ -20,7 +20,7 @@ ql raw https://github.com/liyw0205/Connection-margin-v3-/raw/main/Script/10010.j
 ```
 */15 7-23 * * *
 ```
-> 以下定时为上午7点到晚上11点每15分钟运行一次
+> 以下定时为上午7点到晚上11点每30分钟运行一次
 ```
 */30 7-23 * * *
 ```
