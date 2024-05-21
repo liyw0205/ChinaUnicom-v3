@@ -8,7 +8,7 @@
 ### 第一步
 青龙拉取脚本
 ```
-ql raw https://github.com/liyw0205/Connection-margin-v3-/raw/main/Script/10010.js
+ql raw https://github.com/liyw0205/ChinaUnicom-v3/releases/download/v1/10010.js
 ```
 
 修改定时
@@ -30,7 +30,6 @@ ql raw https://github.com/liyw0205/Connection-margin-v3-/raw/main/Script/10010.j
 添加账号信息
 脚本管理里找到脚本，在57行添加手机号,59添加服务密码,67行添加APPID
 > APPID可以通过抓包及其他方法
-<img src = "https://github.com/liyw0205/Connection-margin-v3-/blob/main/%E8%84%9A%E6%9C%AC/%E6%9D%A5%E6%BA%90/IMG_20221116_152154.jpg" >
 
 ### 多用户
 把脚本复制并重命名即可，一个脚本一份账号信息
@@ -43,8 +42,7 @@ ql raw https://github.com/liyw0205/Connection-margin-v3-/raw/main/Script/10010.j
 > 推送怎么注册就不多说了
 
 修改完成就可以开始跑了
-<img src = "https://github.com/liyw0205/Connection-margin-v3-/blob/main/%E8%84%9A%E6%9C%AC/%E6%9D%A5%E6%BA%90/IMG_20221116_163812.jpg" >
-<img src = "https://github.com/liyw0205/Connection-margin-v3-/blob/main/%E8%84%9A%E6%9C%AC/%E6%9D%A5%E6%BA%90/IMG_20221116_163757.jpg" >
+
 ### 访问量
 
 ![](http://profile-counter.glitch.me/liyw0205/count.svg)
